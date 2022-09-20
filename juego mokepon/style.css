@@ -24,5 +24,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
->>>>>>> 87636ead1e794e4406c61b69381790119cf58beb
+}
+
+.terjeta-de-mokepon {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+input {
+  display: none;
 }
