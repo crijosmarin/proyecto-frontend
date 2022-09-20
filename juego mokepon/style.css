@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .titulo {
   color: gold;
   width: 310px;
@@ -10,4 +11,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+=======
+.titulo {
+  color: gold;
+  width: 310px;
+  height: 50px;
+  background-color: olive;
+}
+
+#seleccionar-mascota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+>>>>>>> 87636ead1e794e4406c61b69381790119cf58beb
 }
