@@ -1,0 +1,13 @@
+.titulo {
+  color: gold;
+  width: 310px;
+  height: 50px;
+  background-color: olive;
+}
+
+#seleccionar-mascota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
