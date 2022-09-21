@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #041562;
+  margin: 0px;
+  font-family: 'Press Start 2P', cursive;
+  background-image: url(./assets/fondo.jpg)
 }
 
 #seleccionar-mascota {
@@ -13,14 +14,16 @@ body {
 }
 
 .titulo {
-  color: white;
+  color: gold;
   font-size: 32px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
 }
 
 .subtitulo {
-  color: white;
-  font-size: 20px;
+  color: darkgreen;
+  font-size: 24px;
+  text-align: center;
 }
 
 .tarjetas,
@@ -30,16 +33,18 @@ body {
 }
 
 .tarjeta-de-mokepon {
-  width: 180px;
   height: 100px;
-  background: #11468F;
+  background: transparent;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  color: white;
+  color: inherit;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
 }
 
 .tarjeta-de-mokepon img {
@@ -51,9 +56,10 @@ body {
   height: 40px;
   border-radius: 20px;
   background: transparent;
-  border: 2px solid white;
-  color: white;
-  font-family: 'Poppins', sans-serif;
+  border: 2px solid lawngreen;
+  color: inherit;
+  font-family: 'Press Start 2P',
+    cursive;
   margin-top: 30px;
 }
 
@@ -62,7 +68,7 @@ input {
 }
 
 input:checked+label {
-  background-color: #5D8BF4;
+  background-color: gold;
 }
 
 #seleccionar-ataque {
@@ -72,37 +78,41 @@ input:checked+label {
 }
 
 .boton-de-ataque {
-  background-color: #11468F;
+  background-color: transparent;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 20px;
-  border-color: transparent;
+  border-color: lawngreen;
   width: 180px;
-  color: white;
-  font-family: 'Poppins', sans-serif;
+  color: inherit;
+  font-family: 'Press Start 2P';
 }
 
 #mensajes {
   width: 280px;
-  background: #EEEEEE;
+  background: transparent;
   padding: 20px;
   margin-top: 20px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: whitesmoke;
 }
 
 #boton-reiniciar {
   border: none;
-  color: #11468F;
-  font-family: 'Poppins', sans-serif;
+  color: inherit;
+  font-family: 'Press Start 2P', cursive;
+  background: transparent;
+  font-size: 24px;
 }
 
 .ataques {
   display: grid;
-  grid-template-columns: 100px 100px;
-  color: white;
+  grid-template-columns: 170px 170px;
+  color: inherit;
+  justify-content: space-evenly;
 }
 
 #vidas-jugador,
@@ -122,6 +132,8 @@ input:checked+label {
 
   .tarjetas,
   .tarjetas-ataques {
-    flex-direction: column;
-  }
+      display: flex;
+      gap: 10px;
+      justify-content: space-evenly;
+    }
 }
